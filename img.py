@@ -22,4 +22,4 @@ if file_path:
 
     cv2.imshow('Face Detection',img)
     cv2.waitKey(0)
-    cv2.destroyAll
+    cv2.destroyAllWindows()
